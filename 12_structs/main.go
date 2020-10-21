@@ -33,7 +33,6 @@ func (p *Person) getMarried(spouseLastName string) {
 		return
 	}
 	p.lastName = spouseLastName
-
 }
 
 func main() {
