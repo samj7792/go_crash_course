@@ -31,9 +31,9 @@ func (p *Person) hasBirthday() {
 func (p *Person) getMarried(spouseLastName string) {
 	if p.gender == "m" {
 		return
-	} else {
-		p.lastName = spouseLastName
 	}
+	p.lastName = spouseLastName
+
 }
 
 func main() {
